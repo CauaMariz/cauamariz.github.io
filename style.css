@@ -35,7 +35,8 @@ nav {
     font-family: "Radio Canada Big", sans-serif;
     font-size: 40px;
     font-weight: 500;
-    color: rgb(255, 147, 74);
+    /*color: rgb(255, 147, 74);*/
+    color: rgb(255, 255, 255);
     margin-left: 1%;
 
 }
