@@ -168,7 +168,7 @@ a {
 .imgFlor{
     display: flex;
     margin: 0 auto;
-    width: 2000px;
+    width: 1800px;
 }
 @keyframes BarraPisca{
     50%{
