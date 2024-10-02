@@ -61,7 +61,52 @@ nav {
     }
   
 }
-
+.frasesEsquerda{
+    display: block;
+    float: left;
+    margin: 0;
+    margin-left: 4%;
+}
+.frasesEsquerda p{
+    margin-bottom: 30%;
+    filter: blur(1px);
+    font-size: 30px;
+}
+.palvr1{
+    transform: rotate(-4deg);
+}
+.palvr2{
+    transform: rotate(4deg);
+}
+.palvr3{
+    transform: rotate(-8deg);
+}
+.palvr4{
+    transform: rotate(6deg);
+}
+.frasesDireita{
+    display: block;
+    float: right;
+    margin: 0;
+    margin-right: 4%;
+}
+.frasesDireita p{
+    margin-bottom: 33%;
+    filter: blur(1px);
+    font-size: 33px;
+}
+.frasesDireita .palvr1{
+    transform: rotate(-8deg);
+}
+.frasesDireita .palvr2{
+    transform: rotate(-8deg);
+}
+.frasesDireita .palvr3{
+    transform: rotate(9deg);
+}
+.frasesDireita .palvr4{
+    transform: rotate(7deg);
+}
 .conjuntoIcons a:hover{
     transition: 0.5s;
     scale: 1.2;
