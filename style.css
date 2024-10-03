@@ -5,12 +5,10 @@
 }
 
 .Main {
-   
     height: 100vh;
     width: 100%;
-    background: linear-gradient(130deg,rgb(0, 20, 58),rgb(0, 26, 75),rgb(18, 48, 105),rgb(24, 68, 150),rgb(8, 98, 201));
+    background-color: #091f41;
     background-size: 100vw;
-
 }
 
 nav {
@@ -26,23 +24,21 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 2%;
 }
 .title {
     position: absolute;
-    top: 35%;
+    top: 43%;
     padding: 0 15px 0 15px;
     border-radius: 10px;
     font-family: "Radio Canada Big", sans-serif;
     font-size: 40px;
     font-weight: 500;
-    /*color: rgb(255, 147, 74);*/
-    color: rgb(255, 255, 255);
+    color:rgb(102, 255, 0);
     margin-left: 1%;
-
 }
 .parteCima{
     display: flex;
-    background-color: #002e69;
     width: 100%;
     height: 80px;
     justify-content: center;
@@ -56,6 +52,7 @@ nav {
     position: relative;
     left: 10%;
     display: flex;
+    margin-left: 2%;
     a{
         margin-left: 20%;
         transition: .5s;
@@ -67,11 +64,13 @@ nav {
     float: left;
     margin: 0;
     margin-left: 4%;
+    margin-top: 20vh;
 }
 .frasesEsquerda p{
     margin-bottom: 30%;
-    filter: blur(1px);
+    filter: blur(0.8px);
     font-size: 30px;
+    color: rgb(255, 255, 255);
 }
 .palvr1{
     transform: rotate(-4deg);
@@ -90,11 +89,13 @@ nav {
     float: right;
     margin: 0;
     margin-right: 4%;
+    margin-top: 20vh;
 }
 .frasesDireita p{
     margin-bottom: 33%;
-    filter: blur(1px);
-    font-size: 33px;
+    filter: blur(0.8px);
+    font-size: 30px;
+    color: rgb(255, 255, 255);
 }
 .frasesDireita .palvr1{
     transform: rotate(-8deg);
@@ -127,17 +128,17 @@ nav {
     padding: 2px;
     text-decoration: none;
     a{
-        color:rgb(255, 105, 0);
+        color:rgb(102, 255, 0);
     }
 }
 
 .parteCima li:hover {
     a {
-        color: white;
+        color: rgb(0, 0, 0);
         text-decoration: none;
     }
 
-    background-color: rgb(255, 105, 0);
+    background-color: rgb(102, 255, 0);
     transition: 0.4s;
     padding-right: 10px;
     padding-left: 10px;
@@ -160,7 +161,7 @@ a {
     font-weight: 400;
     font-size: 30px;
     color: aliceblue;
-    border-right: 10px solid rgb(255, 105, 0);
+    border-right: 10px solid rgb(102, 255, 0);
     white-space: nowrap;
     overflow: hidden;
     animation: BarraPisca .8s step-end infinite, Escrever 6s steps(25,end) infinite;
@@ -168,7 +169,7 @@ a {
 .imgFlor{
     display: flex;
     margin: 0 auto;
-    width: 1400px;
+    width: 1300px;
 }
 @keyframes BarraPisca{
     50%{
@@ -197,9 +198,9 @@ a {
     width: 100%;
 
     button {
-        color: aliceblue;
+        color: rgb(0, 0, 0);
         font-family: "Radio Canada Big", sans-serif;
-        background-color: rgb(255, 105, 0);
+        background-color: rgb(102, 255, 0);
     }
 }
 
@@ -309,7 +310,7 @@ section button:hover {
 .cabecalho {
     width: 100%;
     height: 130px;
-    background-color: #002e69;
+    background-color: #091f41;
 
 
     h4 {
@@ -416,7 +417,7 @@ section button:hover {
 
 .titleProjetos {
     display: flex;
-    color: rgb(255, 105, 0);
+    color: rgb(102, 255, 0);
     font-family: "Radio Canada Big", sans-serif;
     font-size: 150px;
     margin-top: 29vh;
@@ -425,7 +426,7 @@ section button:hover {
 }
 .titleContato {
     display: flex;
-    color: rgb(255, 105, 0);
+    color: rgb(102, 255, 0);
     font-family: "Radio Canada Big", sans-serif;
     font-size: 150px;
     line-height: 210px;
