@@ -26,9 +26,11 @@ nav {
     justify-content: center;
     margin-top: 2%;
 }
+
 .title {
     position: absolute;
-    top: 43%;
+    margin-bottom: 10%;
+    top: 45%;
     padding: 0 15px 0 15px;
     border-radius: 10px;
     font-family: "Radio Canada Big", sans-serif;
@@ -58,6 +60,10 @@ nav {
         transition: .5s;
     }
   
+}
+.conjuntoIcons a:hover{
+    transition: 0.5s;
+    transform: translateY(-10px);
 }
 .frasesEsquerda{
     display: block;
@@ -109,10 +115,7 @@ nav {
 .frasesDireita .palvr4{
     transform: rotate(7deg);
 }
-.conjuntoIcons a:hover{
-    transition: 0.5s;
-    scale: 1.2;
-}
+
 .parteCima ul{
     margin-left: 10vw;
 }
@@ -154,7 +157,7 @@ a {
 .PartName {
     position: absolute;
     margin-left: 2%;
-    top: 48%;
+    top: 50vh;
     width: 0;
     display: inline;
     font-family: "Radio Canada Big", sans-serif;
@@ -255,12 +258,13 @@ section button:hover {
 }
 
 .PartProjects {
+    justify-content: space-between;
     border-top: 1px solid rgb(86, 159, 255);
-    display: flexbox;
+    display: inline-block;
     background-color: rgb(0, 69, 158);
     padding-bottom: 5%;
     width: 100%;
-    
+    justify-content: center;
     h2{
         display: flex;
         justify-content: center;
@@ -275,11 +279,101 @@ section button:hover {
     gap: 2%;
     width: 100%;
 }
+.GrupoImg1{
+    display: block;
+    justify-content: space-between; 
+    padding-left: 5%;
+    margin-bottom: 5%;
 
+}
+.card{
+    text-align: center;
+}
+.card-text{
+    padding-left: 20%;
+    text-align: justify;
+}
+.GrupoImg1 p{  
+    margin-top: 8%;
+    margin-left: -24%;
+}
+.GrupoImg2{
+    display: block; 
+    padding-left: 5%;
+    margin-bottom: 5%;
+
+}
+.GrupoImg2 p{  
+    
+    margin-left: -22%;
+}
+.GrupoImg3{
+    display: block; 
+    padding-left: 5%;
+    margin-bottom: 5%;
+
+}
+.GrupoImg3 p{  
+    margin-left: -25%;
+}
+.GrupoImg4{
+    display: block; 
+    padding-left: 5%;
+    margin-bottom: 5%;
+
+}
+.GrupoImg4 p{  
+    margin-left: -22%;
+}
+.GrupoImg5{
+    display: block; 
+    padding-left: 5%;
+    margin-bottom: 5%;
+
+}
+.GrupoImg5 p{  
+    margin-left: -26%;
+}
+.GrupoImg6{
+    display: block; 
+    padding-left: 5%;
+    margin-bottom: 5%;
+
+}
+.GrupoImg6 p{  
+    margin-left: -21%;
+}
+.GrupoImg7{
+    display: block; 
+    padding-left: 5%;
+    margin-bottom: 5%;
+}
+.GrupoImg7 p{  
+    margin-left: -20%;
+}
+.GrupoImg8{
+    display: block; 
+    padding-left: 5%;
+    margin-bottom: 5%;
+
+}
+.GrupoImg8 p{  
+    margin-left: -25%;
+}
+.GrupoImg9{
+    display: block; 
+    padding-left: 5%;
+    margin-bottom: 5%;
+
+}
+.GrupoImg9 p{  
+    margin-left: -25%;
+}
 .img1Projeto,
 .img2Projeto,
 .img3Projeto {
     justify-content: space-between;
+    align-items: center;
     margin: 0;
     margin-top: 6%;
     margin-left: 16px;
@@ -292,13 +386,13 @@ section button:hover {
 .img1Projeto:hover {
     transition: 0.6s;
     box-shadow: 1px 1px 10px 1px rgb(43, 43, 43);
-    scale: 1.2;
+    scale: 1.1;
 }
 
 .img2Projeto:hover {
     transition: 0.6s;
     box-shadow: 1px 1px 10px 1px rgb(43, 43, 43);
-    scale: 1.2;
+    scale: 1.1;
 }
 
 .img3Projeto:hover {
@@ -456,6 +550,7 @@ section button:hover {
 .partSobre button{
     position: relative;
     left: 2%;
+ 
 }
 .text {
     position: absolute;
