@@ -269,6 +269,11 @@ section button:hover {
         display: flex;
         justify-content: center;
     }
+    p{
+        color: rgb(32, 32, 32);
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .Group {
@@ -284,7 +289,6 @@ section button:hover {
     justify-content: space-between; 
     padding-left: 5%;
     margin-bottom: 5%;
-
 }
 .card{
     text-align: center;
@@ -292,6 +296,9 @@ section button:hover {
 .card-text{
     padding-left: 20%;
     text-align: justify;
+}
+.GrupoImg1 a{
+    margin-top: 20%;
 }
 .GrupoImg1 p{  
     margin-top: 8%;
@@ -303,8 +310,10 @@ section button:hover {
     margin-bottom: 5%;
 
 }
+.GrupoImg2 a{
+    margin-top: 30%;
+}
 .GrupoImg2 p{  
-    
     margin-left: -22%;
 }
 .GrupoImg3{
@@ -312,6 +321,9 @@ section button:hover {
     padding-left: 5%;
     margin-bottom: 5%;
 
+}
+.GrupoImg5 a{
+    margin-top: 15%;
 }
 .GrupoImg3 p{  
     margin-left: -25%;
@@ -340,6 +352,9 @@ section button:hover {
     margin-bottom: 5%;
 
 }
+.GrupoImg6 a{
+    margin-top: 10%;
+}
 .GrupoImg6 p{  
     margin-left: -21%;
 }
@@ -357,6 +372,9 @@ section button:hover {
     margin-bottom: 5%;
 
 }
+.GrupoImg8 a{
+    margin-top: 16%;
+}
 .GrupoImg8 p{  
     margin-left: -25%;
 }
@@ -365,6 +383,9 @@ section button:hover {
     padding-left: 5%;
     margin-bottom: 5%;
 
+}
+.GrupoImg9 a{
+    margin-top: 50%;
 }
 .GrupoImg9 p{  
     margin-left: -25%;
