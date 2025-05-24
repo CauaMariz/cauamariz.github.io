@@ -5,7 +5,7 @@
 }
 
 .Main {
-    height: 100vh;
+    height: 50vw;
     width: 100%;
     background-color: #091f41;
     background-size: 100vw;
@@ -30,17 +30,51 @@ nav {
 
 .title {
     position: absolute;
-    margin-bottom: 10%;
-    top: 45%;
+    margin-top: 30vw;
     padding: 0 15px 0 15px;
     border-radius: 10px;
     font-family: "Radio Canada Big", sans-serif;
-    font-size: 40px;
+    font-size: 120px; 
+    align-self: center;
     font-weight: 500;
     color: rgb(102, 255, 0);
     margin-left: 1%;
 }
-
+@media(max-width:1100px){
+    .title{
+        font-size: 110px;
+    }
+}
+@media(max-width:970px){
+    .title{
+        font-size: 100px;
+    }
+}
+@media(max-width:890px){
+    .title{
+        font-size: 90px;
+    }
+}
+@media(max-width:800px){
+    .title{
+        font-size:80px;
+    }
+}
+@media(max-width:740px){
+    .title{
+        font-size:70px;
+    }
+}
+@media(max-width:690px){
+    .title{
+        font-size:60px;
+    }
+}
+@media(max-width:550px){
+    .title{
+        font-size:50px;
+    }
+}
 .parteCima {
     display: flex;
     width: 100%;
@@ -52,20 +86,46 @@ nav {
         width: 70px;
     }
 }
-
 .conjuntoIcons {
-    position: relative;
-    left: 10%;
-    display: flex;
-    margin-left: 2%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 20px;
+  padding: 10px;
+  left: 10vw;
+  a {
+    transition: 0.5s;
+    display: inline-block;
 
-    a {
-        margin-left: 20%;
-        transition: .5s;
+    img {
+      min-width: 3vw;
+      height: auto;
+      max-width: 100%;
+    }
+  }
+}
+@media (max-width: 1310px) {
+    .conjuntoIcons img{
+        width: 3.5vw;
+    }
+}
+@media (max-width: 1230px) {
+    .conjuntoIcons img{
+             min-width: 3vw;
+    }
+}
+@media (max-width: 1115px) {
+    .conjuntoIcons{
+        margin-left: -5vw;
+    }
+}
+@media (max-width: 950px) {
+    .conjuntoIcons{
+        margin-left: -7vw;
     }
 
 }
-
 .conjuntoIcons a:hover {
     transition: 0.5s;
     transform: translateY(-10px);
@@ -78,7 +138,21 @@ nav {
     margin-left: 4%;
     margin-top: 20vh;
 }
-
+@media(max-width:1150px){
+    .frasesEsquerda{
+        margin-top: 15vh;
+    }
+}
+@media(max-width:1050px){
+    .frasesEsquerda{
+        margin-top: 10vh;
+    }
+}
+@media(max-width:680px){
+    .frasesEsquerda{
+        margin-top: 5vh;
+    }
+}
 .frasesEsquerda p {
     margin-bottom: 30%;
     filter: blur(0.8px);
@@ -101,7 +175,21 @@ nav {
 .palvr4 {
     transform: rotate(6deg);
 }
-
+@media (max-width: 1200px){
+    .frasesEsquerda p{
+        font-size: 25px;
+    }
+}
+@media (max-width: 980px){
+    .frasesEsquerda p{
+        font-size: 20px;
+    }
+}
+@media (max-width: 650px){
+    .frasesEsquerda p{
+        font-size: 15px;
+    }
+}
 .frasesDireita {
     display: block;
     float: right;
@@ -109,7 +197,21 @@ nav {
     margin-right: 4%;
     margin-top: 20vh;
 }
-
+@media(max-width:1150px){
+    .frasesDireita{
+        margin-top: 15vh;
+    }
+}
+@media(max-width:1050px){
+    .frasesDireita{
+        margin-top: 10vh;
+    }
+}
+@media(max-width:680px){
+    .frasesDireita{
+        margin-top: 5vh;
+    }
+}
 .frasesDireita p {
     margin-bottom: 33%;
     filter: blur(0.8px);
@@ -132,7 +234,21 @@ nav {
 .frasesDireita .palvr4 {
     transform: rotate(7deg);
 }
-
+@media (max-width: 1200px){
+    .frasesDireita p{
+        font-size: 25px;
+    }
+}
+@media (max-width: 980px){
+    .frasesDireita p{
+        font-size: 20px;
+    }
+}
+@media (max-width: 650px){
+    .frasesDireita p{
+        font-size: 15px;
+    }
+}
 .parteCima ul {
     margin-left: 10vw;
 }
@@ -175,19 +291,47 @@ a {
 
 .PartName {
     position: absolute;
-    margin-left: 2%;
-    top: 50vh;
+    margin-left: 1vw;
+    margin-top: 40vw;
     width: 0;
     display: inline;
-    font-family: "Radio Canada Big", sans-serif;
+    font-family: "Radio Canada Big", sans-serif;    
     font-weight: 400;
-    font-size: 30px;
+    font-size: 40px;
     color: aliceblue;
-    border-right: 10px solid rgb(102, 255, 0);
+    border-right: 6px solid rgb(102, 255, 0);
     white-space: nowrap;
     overflow: hidden;
     animation: BarraPisca .8s step-end infinite, Escrever 6s steps(25, end) infinite;
 }
+@media(max-width:1100px){
+    .PartName{
+        font-size: 30px;
+        
+    }
+   
+}
+@media(max-width:970px){
+    .PartName{
+        font-size: 25px;
+     
+    }
+ 
+}
+
+
+@media(max-width:890px){
+    .PartName{
+        font-size: 20px;
+    }
+}
+@media(max-width:800px){
+    .PartName{
+        font-size:18px;
+         margin-left: 32vw;
+    }
+}
+
 
 .imgFlor {
     display: flex;
@@ -688,7 +832,7 @@ section button:hover {
     font-family: "Radio Canada Big", sans-serif;
     display: flex;
     margin: 0 auto;
-    margin-top: 34vh;
+    margin-top: 45vh;
     justify-content: center;
     line-height: 80px;
     border-radius: 10px;
