@@ -38,14 +38,15 @@
                     <img src="imgs/icons8-instagram-50 (3).png" alt="">
                 </a>
             </div>
-
         </nav>
+
+        <div class="campoShowLink" id="campoShowLink"></div>
 
         <div class="swiper-container">
             <div class="swiper swiper1">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" aria-label="Slide 1 - descrição">
-                        <img src="imgs/aleksei-sabulevskii-14BHYPL4AqQ-unsplash.jpg" alt="" class="imgsBanner" onclick = 'location.href = "https://github.com/CauaMariz/PROJETOS-JS-CSS-HTML-PHP/tree/main/Projeto-API-PHP"' target = '_blank'>
+                        <img src="imgs/aleksei-sabulevskii-14BHYPL4AqQ-unsplash.jpg" alt="" class="imgsBanner" onclick = 'location.href = "https://github.com/CauaMariz/PROJETOS-JS-CSS-HTML-PHP/tree/main/Projeto-API-PHP"' target = '_blank' id="img1Banner" onmousemove="moveImg1()">
                         
                     </div>
                     <div class="swiper-slide" aria-label="Slide 2 - descrição">
@@ -287,6 +288,8 @@
             })
         })
     </script>
+
+    <script src="scriptLinkProjects.js"></script>
 </body>
 
 </html>
