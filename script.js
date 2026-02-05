@@ -1,3 +1,8 @@
+let menu = document.querySelector('.partMenu');
+
+function abrirMenu(){
+  menu.classList.toggle('openMenu');
+}
 
 function SeeProjectsContt() {
   location.href = 'projts.html'
@@ -20,6 +25,5 @@ AreaTexto.addEventListener('input', function () {
   this.style.scrollHeight = '0'
 })
 AreaTexto.className = "AreaTexto";
-
 
 
