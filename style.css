@@ -284,7 +284,16 @@
         font-size: 15px;
     }
 }
-
+@media (max-width: 410px) {
+    .frasesEsquerda p {
+        font-size: 13px;
+    }
+}
+@media (max-width: 220px) {
+    .frasesEsquerda p {
+        font-size: 10px;
+    }
+}
 .frasesDireita {
     display: block;
     float: right;
@@ -310,7 +319,6 @@
         margin-top: 5vh;
     }
 }
-
 .frasesDireita p {
     margin-bottom: 33%;
     filter: blur(0.8px);
@@ -349,6 +357,16 @@
 @media (max-width: 650px) {
     .frasesDireita p {
         font-size: 15px;
+    }
+}
+@media (max-width: 410px) {
+    .frasesDireita p {
+        font-size: 13px;
+    }
+}
+@media (max-width: 220px) {
+    .frasesDireita p {
+        font-size: 10px;
     }
 }
 
@@ -470,14 +488,27 @@ a {
     .title {
         font-size: 60px;
     }
-}
-
+    .PartName{
+        margin-left: 31vw;
+    }
+}   
+@media(max-width:630px) {
+    .PartName{
+        margin-left: 30vw;
+    }
+}   
+@media(max-width:560px) {
+    .PartName{
+        margin-left: 28vw;
+    }
+}   
 @media(max-width:550px) {
     .title {
         font-size: 50px;
     }
     .PartName{
-        font-size: 30px;
+        font-size: 20px;
+    
     }
 }
 @media(max-width:400px) {
@@ -614,7 +645,7 @@ a {
     }
 }
 
-@media(max-width:300px) {
+@media(max-width:320px) {
     .MainPart {
         display: block;
         align-items: start;
@@ -898,7 +929,27 @@ section button:hover {
         margin-left: 5%;
     }
 }
+@media  (max-width: 400px) {
+    .cabecalho h4 {
+        font-size: 18px;
+    }
 
+    .cabecalho a {
+        font-size: 15px;
+    }
+}
+@media  (max-width: 310px) {
+    .cabecalho h4 {
+        font-size: 15px;
+    }
+
+    .cabecalho a {
+        font-size: 13px;
+    }
+    .cabecalho p {
+        font-size: 12px;
+    }
+}
 .img1Projeto {
     transition: 0.6s;
     width: 400px;
@@ -916,7 +967,30 @@ section button:hover {
     width: 400px;
     height: 250px;
 }
-
+@media(max-width:530px) {
+    .img1Projeto,
+    .img2Projeto,
+    .img3Projeto {
+        width: 300px;
+        height: 200px;
+    }
+}
+@media(max-width:400px) {
+    .img1Projeto,
+    .img2Projeto,
+    .img3Projeto {
+        width: 250px;
+        height: 170px;
+    }
+}
+@media(max-width:300px) {
+    .img1Projeto,
+    .img2Projeto,
+    .img3Projeto {
+        width: 200px;
+        height: 130px;
+    }
+}
 .conjuntoCntt {
     height: 300px;
     width: 1000px;
