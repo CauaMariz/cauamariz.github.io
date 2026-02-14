@@ -75,15 +75,17 @@
 
 .subNavRight {
     display: block;
+    position: relative;
 }
 
 .partMenu {
     display: flex;
-    position: relative;
+    position: absolute;
     display: none;
     width: 100px;
-    float: right;
+    right: 0;
     list-style: none;
+    z-index: 2;
 }
 
 .partMenu a {
@@ -97,6 +99,7 @@
     border-top-left-radius: 10px;
     padding: 5px;
     padding-left: 12px;
+
 }
 
 .iconMenu {
@@ -123,7 +126,11 @@
         width: 50px;
     }
 }
-
+@media (min-width: 700px) {
+    .partMenu{
+        display: none;
+    }
+}
 @media(max-width: 320px) {
     .logo {
 
