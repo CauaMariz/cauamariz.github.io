@@ -650,7 +650,7 @@ a {
     }
 }
 
-@media(max-width:730px) {
+@media(max-width:750px) {
     .PartName {
         left: 7vw;
     }
@@ -673,11 +673,29 @@ a {
         }
     }
 }
-
+@media(max-width:720px) {
+    .PartName {
+        left: 7vw;
+        max-width: 220px;
+    }
+}
+@media(max-width:500px) {
+    .PartName {
+        left: 4vw;
+        max-width: 220px;
+    }
+}
+@media(max-width:450px) {
+    .PartName {
+        left: 2vw;
+        max-width: 220px;
+    }
+}
 @media(max-width:400px) {
     .PartName {
         left: 3vw;
         font-size: 13px;
+        max-width: 150px;
     }
 
     @keyframes Escrever {
