@@ -126,11 +126,13 @@
         width: 50px;
     }
 }
+
 @media (min-width: 700px) {
-    .partMenu{
+    .partMenu {
         display: none;
     }
 }
+
 @media(max-width: 320px) {
     .logo {
 
@@ -232,6 +234,7 @@
         flex-wrap: nowrap;
     }
 }
+
 @media (max-width: 450px) {
     .conjuntoIcons img {
         width: 7vw;
@@ -241,6 +244,7 @@
         flex-wrap: nowrap;
     }
 }
+
 @media (max-width: 400px) {
     .conjuntoIcons img {
         max-width: 180%;
@@ -251,6 +255,7 @@
         flex-wrap: nowrap;
     }
 }
+
 @media (max-width: 350px) {
     .conjuntoIcons img {
         min-width: 200px;
@@ -673,24 +678,28 @@ a {
         }
     }
 }
+
 @media(max-width:720px) {
     .PartName {
         left: 7vw;
         max-width: 220px;
     }
 }
+
 @media(max-width:500px) {
     .PartName {
         left: 4vw;
         max-width: 220px;
     }
 }
+
 @media(max-width:450px) {
     .PartName {
         left: 2vw;
         max-width: 220px;
     }
 }
+
 @media(max-width:400px) {
     .PartName {
         left: 3vw;
@@ -1136,18 +1145,14 @@ section button:hover {
 
 .conjuntoCntt {
     height: 300px;
-    width: 1000px;
-    display: inline;
-    margin-left: 5%;
-
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    justify-items: center;
     h2 {
         font-family: "Radio Canada Big", sans-serif;
-        display: flex;
-        justify-content: center;
-        margin-top: -15%;
         color: aliceblue;
         font-size: 45px;
-        margin-bottom: 7vh;
     }
 
     a {
@@ -1161,12 +1166,11 @@ section button:hover {
 
     ul {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     p {
-        position: relative;
-        left: 17%;
-        margin-top: 15%;
         font-size: 20px;
         height: 0;
         color: aliceblue;
@@ -1174,33 +1178,43 @@ section button:hover {
     }
 
     img {
-        position: relative;
-        left: 25%;
+        display: flex;
         width: 70px;
         height: 70px;
     }
 }
-
-.p1 {
-    display: flex;
-    margin-left: -14%;
+.bloco1, .bloco2, .bloco3{
+    display: block;
+    justify-content: center;
+    border: 1px solid red;
+    justify-items: center;
 }
+@media (max-width: 1100px) {
+    .conjuntoCntt p {
+        font-size: 17px;
+    }
 
-.imgEmail {
-    transform: translateX(-225%);
+    .conjuntoCntt h2 {
+        font-size: 22px;
+    }
+
+    .conjuntoCntt img {
+        width: 50px;
+        height: 50px;
+    }
 }
 
 .conjuntoCntt li {
     text-align: center;
     display: inline-block;
     position: relative;
-    left: 1%;
+
     line-height: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 600;
     background-color: rgb(230, 230, 230);
     margin-bottom: 10px;
-    margin-top: 20%;
+    margin-top: 10%;
     padding: 4px;
     padding-left: 10px;
     border-radius: 5px;
