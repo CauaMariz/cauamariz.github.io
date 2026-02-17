@@ -1463,7 +1463,54 @@ section button:hover {
     height: 30px;
 }
 
+@media (max-width: 1360px) {
+    .swiper {
+        width: 20vw;
+        height: 50vh;
+    }
+}
 
+@media (max-width: 1280px) {
+    .swiper {
+        width: 20vw;
+        height: 45vh;
+    }
+}
+
+@media (max-width: 1110px) {
+    .swiper {
+        width: 20vw;
+        height: 35vh;
+    }
+}
+
+@media (max-width: 960px) {
+    .swiper {
+        width: 17vw;
+        height: 30vh;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        
+        width: 10px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .swiper {
+        width: 27vw;
+        height: 35vh;
+    }
+}
+
+@media (max-width: 580px) {
+    .swiper {
+        width: 20vw;
+        height: 25vh;
+    }
+}
 .swiper-pagination-bullet {
     background: white;
     opacity: 0.6;

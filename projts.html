@@ -18,27 +18,43 @@
 
 <body>
     <div class="MainProjects">
-        <nav class="parteCimaProjects">
-            <img src="imgs/Técnico em informática futurista verde e preto logo (1).png" alt="" class="logo">
-            <ul>
-                <li> <a href="index.html">Home</a></li>
-                <li> <a href="contt.html">Contato</a></li>
-                <li> <a href="projts.html">Projetos</a></li>
-                <li> <a href="sobre.html">Sobre</a></li>
-            </ul>
+         <nav class="parteCima">
 
-            <div class="conjuntoIcons">
-                <a href="https://www.linkedin.com/in/caua-mariz-254b8731a/" target="_blank">
-                    <img src="imgs/icons8-linkedin-50 (2).png" alt="">
-                </a>
-                <a href="https://github.com/CauaMariz" target="_blank">
-                    <img src="imgs/icons8-github-50 (3).png" alt="">
-                </a>
-                <a href="https://www.instagram.com/cmarizzzz/?igsh=eTk1MzdvZm83M2Nr" target="_blank">
-                    <img src="imgs/icons8-instagram-50 (3).png" alt="">
-                </a>
+            <div class="navLeft">
+                <img src="imgs/Técnico em informática futurista verde e preto logo (1).png" class="logo">
             </div>
+
+            <div class="navCenter">
+                <ul class="menuSuspenso">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contt.html">Contato</a></li>
+                    <li><a href="projts.html">Projetos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </div>
+
+            <div class="navRight">
+                <div class="conjuntoIcons">
+                    <a href="#"><img src="imgs/icons8-linkedin-50 (2).png"></a>
+                    <a href="#"><img src="imgs/icons8-github-50 (3).png"></a>
+                    <a href="#"><img src="imgs/icons8-instagram-50 (3).png"></a>
+                </div>
+                <div class="iconMenu" onclick="abrirMenu()">&#9776;</div>
+
+            </div>
+
         </nav>
+        <div class="subNavRight">
+
+            <ul class="partMenu">
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contt.html">Contato</a></li>
+                <li><a href="projts.html">Projetos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+
+            </ul>
+        </div>  
 
         <div class="campoShowLink" id="campoShowLink"></div>
 
@@ -250,7 +266,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
+    <script src="script.js"></script>
     <script>
         const swiper1 = new Swiper('.swiper1', {
             navigation: {
@@ -285,6 +301,7 @@
     </script>
 
     <script src="scriptLinkProjects.js"></script>
+   
 </body>
 
 </html>
