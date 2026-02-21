@@ -1359,24 +1359,66 @@ section button:hover {
     }
 }
 
-
+.contentSobre{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+}
 
 .TextVejaSobre {
     font-family: "Radio Canada Big", sans-serif;
     display: flex;
     margin: 0 auto;
-    margin-top: 45vh;
-    justify-content: center;
-    line-height: 80px;
     border-radius: 10px;
+    justify-content: center;
+    align-items: center;
     height: 80px;
     font-size: 30px;
     font-weight: 600;
     color: white;
     background-color: rgb(0, 79, 250);
+    min-height: auto;
     width: 600px;
+    text-align: center;
 }
-
+@media (max-width:670px) {
+    .TextVejaSobre {
+        width: 400px;
+        font-size: 20px;
+    }   
+}
+@media (max-width:490px) {
+    .TextVejaSobre {
+        width: 300px;
+        font-size: 20px;
+    }   
+}
+@media (max-width:390px) {
+    .TextVejaSobre {
+        width: 270px;
+        font-size: 17px;
+        
+    }   
+}
+@media (max-width:280px) {
+    .TextVejaSobre {
+        width: 200px;
+        font-size: 17px;
+    }   
+}
+@media (max-width:250px) {
+    .partSobre h5   {
+        width: 100px;
+        font-size: 17px;
+    }   
+}
+@media (max-width:220px) {
+    .TextVejaSobre {
+        width: 17   0px;
+        font-size: 17px;
+        
+    }   
+}
 .formCntt {
     display: inline;
     align-items: center;
@@ -1462,7 +1504,14 @@ section button:hover {
     width: 30px;
     height: 30px;
 }
-
+.tituloProjeto{
+    display: none;
+    color: rgb(102, 255, 0);
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 100px;
+    justify-content: center;
+    text-align: center;
+}
 @media (max-width: 1360px) {
     .swiper {
         width: 20vw;
@@ -1509,6 +1558,29 @@ section button:hover {
     .swiper {
         width: 20vw;
         height: 25vh;
+    }
+}
+@media (max-width: 550px) {
+    .swiper-container{
+        display: none;
+    }
+    .tituloProjeto{
+        display: block;
+    }
+}
+@media (max-width: 450px) {
+    .tituloProjeto{
+        font-size: 80px;
+    }
+}
+@media (max-width: 370px) {
+    .tituloProjeto{
+        font-size: 60px;
+    }
+}
+@media (max-width: 290px) {
+    .tituloProjeto{
+        font-size: 50px;
     }
 }
 .swiper-pagination-bullet {
